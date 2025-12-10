@@ -18,7 +18,7 @@ if uploaded_file is not None:
 
         # Display the first few rows of the data
         st.write("Data Preview:")
-        st.dataframe(df.head())
+        st.dataframe(s.head())
 
     except Exception as e:
         st.error(f"An error occurred while reading the file: {e}")
